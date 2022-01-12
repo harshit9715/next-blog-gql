@@ -7,3 +7,8 @@
     --amplify-primary-tint: #2563EB;
     --amplify-primary-shade: #2563EB;
 }
+
+amplify-s3-image {
+    --height: 300px;
+    --width: 300px;
+  }

@@ -50,5 +50,19 @@
         ]
       }
     }
+  },
+  "function": {
+    "S3Triggerdb9a7bce": {
+      "service": "Lambda",
+      "providerPlugin": "awscloudformation",
+      "build": true
+    }
+  },
+  "storage": {
+    "projectimages": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": []
+    }
   }
 }
